@@ -1,0 +1,21 @@
+{
+  "name": "oink",
+  "description": "Kickstart your Web-App development!",
+  "main": "",
+  "authors": [
+    "Martin Emmert"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "webapp",
+    "development",
+    "foundation",
+    "grunt",
+    "node",
+    "bower"
+  ],
+  "homepage": "https://github.com/martinemmert/oink",
+  "moduleType": [],
+  "private": true
+}

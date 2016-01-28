@@ -1,0 +1,21 @@
+### Project
+.tmp
+node_modules
+bower_components
+*.log
+build/
+
+### OSX
+.DS_Store
+._*
+
+### Windows
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+### JetBrains
+*.iml
+.idea/
+*.ipr
+*.iws
