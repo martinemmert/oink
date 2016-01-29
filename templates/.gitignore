@@ -1,5 +1,8 @@
 ### Project
+.tmp
 node_modules
+bower_components
+build/
 
 ### OSX
 .DS_Store

@@ -57,7 +57,7 @@ module.exports = function (grunt) {
     // (ensure that a default task exists)
     if (!registerDefinitions.default) {
         registerDefinitions.default = function (grunt) {
-            grunt.registerTask('default', []);
+            grunt.registerTask('default', ['dev']);
         };
     }
 
