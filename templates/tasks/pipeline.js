@@ -24,6 +24,7 @@ module.exports = {
         // note: they will be merged and compressed cssmin during build
         // location: <head></head>
         // example: 'assets/css/**/*.css'
+        'assets/css/styles.css'
     ],
     cdnJS: [
         // javascript libraries from Content Delivery Networks (cdn)

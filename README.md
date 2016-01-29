@@ -1,27 +1,45 @@
 #OINK!
 
+<p align="center">
+<img src="http://martinemmert.de/oink.png" alt="Oink! - Start coding, not configuring!"/>
+</p>
 ##Kickstart your Web-App development
+Use this as your everyday foundation to start a new web app project and never struggle again with fancy files you don't know anything about or bloated Gruntfiles that nobody wants to maintain.
 
-**Start coding, not configuring!**
+> **Start coding, not configuring!**
 
-Use this as your everyday foundation to start a new project and never struggle again with fancy files or bloated Gruntfiles that nobody wants to maintain.
+###1. Installation
+```
+npm install -g oink-cli
+```
 
-##Includes
+###2. Create a project
+```
+oink <project-dir-name> && cd <project-dir-name>
+```
+
+###3. Code!
+```
+grunt dev
+```
+
+###Includes
 
 - Grunt & Bower
 
 - Dev-Process with:
-    - Server with Connect
-    - Copying & linking of your assets
     - SCSS compiler (the fast one)
+    - Semi-Auto Linking of your assets
     - CSS Autoprefixing
     - CSS LiveReload
+    - Static Server to preview your work
     
 - Build Process with:
     - SCSS compiling
     - CSS Autoprefixing
     - CSS minification
     - Copying & linking of your assets
+    - Static Server to preview your work
 
 ##Licence
 
